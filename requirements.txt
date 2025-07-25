@@ -1,0 +1,11 @@
+pyprimo
+numpy~=2.0.2
+panda
+scikit_learn
+lightgbm
+seaborn
+matplotlib
+xgboost
+pandas~=2.2.2
+scikit-learn~=1.5.1
+torch~=2.4.1
