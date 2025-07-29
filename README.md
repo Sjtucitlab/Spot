@@ -2,5 +2,19 @@
 
 ## Overview
 
-GFS is 
+This system simulates GPU cluster scheduling with support for spot instances and job preemption. It includes components for cluster management, job scheduling, and performance analysis.
+
+## Project Structure
+
+.
+├── cluster.py          # Cluster and node management implementation
+├── job.py              # Job class and trace handling
+├── simulator.py        # Main simulation driver
+├── utils.py            # Utility functions and trace processing
+├── policy/             # Scheduling policy implementations (to be added)
+├── estimator/          # Performance estimators (to be added)
+├── data/               # Input trace data (should contain node_info_df.csv and job_info_df.csv)
+├── log/                # Output logs and results
+├── requirements.txt    # Python dependencies
+└── run.sh              # Execution script
 
