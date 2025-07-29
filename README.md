@@ -6,7 +6,8 @@ This system simulates GPU cluster scheduling with support for spot instances and
 
 ## Project Structure
 
-.
+```text
+
 ├── cluster.py          # Cluster and node management implementation
 ├── job.py              # Job class and trace handling
 ├── simulator.py        # Main simulation driver
@@ -17,4 +18,10 @@ This system simulates GPU cluster scheduling with support for spot instances and
 ├── log/                # Output logs and results
 ├── requirements.txt    # Python dependencies
 └── run.sh              # Execution script
+
+## Installation
+
+```python
+pip install -r requirements.txt
+```
 
