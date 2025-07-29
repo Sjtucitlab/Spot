@@ -12,8 +12,8 @@ This system simulates GPU cluster scheduling with support for spot instances and
 ├── job.py              # Job class and trace handling
 ├── simulator.py        # Main simulation driver
 ├── utils.py            # Utility functions and trace processing
-├── policy/             # Scheduling policy implementations (to be added)
-├── estimator/          # Performance estimators (to be added)
+├── policy/             # Scheduling policy implementations
+├── estimator/          # Performance estimators
 ├── data/               # Input trace data (should contain node_info_df.csv and job_info_df.csv)
 ├── log/                # Output logs and results
 ├── requirements.txt    # Python dependencies
