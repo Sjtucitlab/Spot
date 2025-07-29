@@ -57,5 +57,6 @@ predictions = estimator.test(data, timestamp)
 The system requires two CSV files in the trace directory:
 1. node_info_df.csv - Cluster node information
 2. job_info_df.csv - Job submission trace data
+
 Both datasets are publicly available at https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-spot-gpu
 
